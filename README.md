@@ -1,6 +1,6 @@
 # AgazienwaBlessing-Lita-AWS-EC2-PROJECT
- THIS IS PROJECT DOCUMENTING THE PROCESS OF LAUNCHING AN EC2 INSTANCE AND DEPLOYING APACHE WEB SERVER IN IT.
-### AWS HOME PAGE / ENVIRONMENT
+THIS IS A PROJECT DOCUMENTING THE PROCESS OF LAUNCHING AN EC2 INSTANCE AND DEPLOYING APACHE WEB SERVER IN IT.
+## AWS HOME PAGE / ENVIRONMENT
 Amazon Web Services (AWS) is the world-leading cloud 
 technologies that help any organization and any individual build 
 solutions to transform industries, communities, and lives for the better.
@@ -108,12 +108,16 @@ server in the AWS cloud.
 Apache is a free, open-source software technology that can be used in AWS
 for a variety of purposes, including: 
 ### Apache Web Server
-    A free, open-source web server that delivers web contentover the internet. You can install the Apache web server on an EC2 instance
+    A free, open-source web server that delivers web contentover the internet,
+    You can install the Apache web server on an EC2 instance
 ### Apache Cassandra
-    An open-source, NoSQL database designed for applicationsthat require fast read and write performance. You can use Amazon Keyspaces to run Cassandra workloads. 
+    An open-source, NoSQL database designed for applicationsthat require fast 
+    read and write performance. You can use Amazon Keyspaces to run Cassandra
+    workloads. 
 ### Apache Spark
-    An open-source, distributed processing system used for big dataworkloads. It supports code reuse across multiple workloads, including batch 
-    processing, interactive queries, real-time analytics, machine learning, and graph processing. 
+    An open-source, distributed processing system used for big dataworkloads. 
+    It supports code reuse across multiple workloads, including batch processing,
+    interactive queries, real-time analytics, machine learning, and graph processing. 
 ### Apache Hadoop
     An open-source framework that is used to efficiently store and process large datasets
 ### Apache Flink
@@ -142,7 +146,7 @@ for a variety of purposes, including:
 ![apache installation:detail/](/apache_download1.JPG)
 ![apache installation:detail/](/apache.JPG)
 
-## HOW TO CHECK YOUR TEST PAGE
+### HOW TO CHECK YOUR TEST PAGE
 * go to your EC2 instance
 * copy your IP address and past it on your browser and refresh
 

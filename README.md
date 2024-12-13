@@ -10,8 +10,19 @@ missions, or governments and cities seeking to serve their citizens more
 effectively.
 ![AWS:detail/](/aws_homepage.JPG)
 ## VPC CREATION
-I used the vpc created by our instructors because we have reached the 
-number of vpc's to be created in AWS for free.
+A VPC is a virtual network environment that provides a secure and isolated
+space for resources in the AWS cloud. It allows users to: Customize network
+configurations, Control traffic, Connect to other resources securely, Isolate
+resources, and Enhance security.
+### VPCs are made up of components like:
+1. Subnets
+2. Route tables
+3. Security groups
+4. Network ACLs
+5. Internet and VPN gateways
+6. Peering connections.
+I used the vpc created by our instructors which is Lita_Project_Vpc because we have reached the number
+of vpc's to be created in AWS for free.
 ![AWS:detail/](/vpc.JPG)
 ## SECURITY GROUP
 ### THINGS TO KNOW ABOUT SECURITY GROUP

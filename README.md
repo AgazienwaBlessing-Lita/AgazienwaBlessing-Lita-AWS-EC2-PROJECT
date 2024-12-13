@@ -8,9 +8,9 @@ Whether they are entrepreneurs launching new businesses, established
 companies reinventing themselves, non-profits working to advance their
 missions, or governments and cities seeking to serve their citizens more 
 effectively.
-!{AWS:detail/}(/aws_homepage.JPG)
+![AWS:detail/](/aws_homepage.JPG)
 ### VPC CREATION
 I used the vpc created by our instructors because we have reached the 
 number of vpc's to be created in AWS for free.
-!{AWS:detail/}(/vpc.JPG)
+![AWS:detail/](/vpc.JPG)
 

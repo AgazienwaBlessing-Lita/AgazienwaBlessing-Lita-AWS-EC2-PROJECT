@@ -31,6 +31,13 @@ of vpc's to be created in AWS for free.
 * click on create vpc
 * fill in the requir informations
 
+## WHAT IS AN NACL
+Network Access Control List (NACL) is an optional security layer in Amazon
+Web Services (AWS) that controls traffic entering and exiting a subnet. NACLs
+work like a firewall, and can be used to add an extra layer of security to a VPC.
+One of the tools in the AWS security toolkit for enabling defense-in-depth, is the
+Network Access Control List (NACL). A NACL is a security layer for your VPC, that 
+acts as a firewall for controlling traffic in and out of one or more subnets.
 ### HOW TO CREATE A PRIVATE NACL
 * fill your name
 * select private NACL
@@ -101,20 +108,14 @@ server in the AWS cloud.
 Apache is a free, open-source software technology that can be used in AWS
 for a variety of purposes, including: 
 ### Apache Web Server
-    A free, open-source web server that delivers web content
-    over the internet. You can install the Apache web server on an EC2 instance
+    A free, open-source web server that delivers web contentover the internet. You can install the Apache web server on an EC2 instance
 ### Apache Cassandra
-    An open-source, NoSQL database designed for applications
-    that require fast read and write performance. You can use Amazon Keyspaces to 
-    run Cassandra workloads. 
+    An open-source, NoSQL database designed for applicationsthat require fast read and write performance. You can use Amazon Keyspaces to run Cassandra workloads. 
 ### Apache Spark
-    An open-source, distributed processing system used for big data
-    workloads. It supports code reuse across multiple workloads, including batch 
-    processing, interactive queries, real-time analytics, machine learning, and 
-    graph processing. 
+    An open-source, distributed processing system used for big dataworkloads. It supports code reuse across multiple workloads, including batch 
+    processing, interactive queries, real-time analytics, machine learning, and graph processing. 
 ### Apache Hadoop
-    An open-source framework that is used to efficiently store and 
-    process large datasets
+    An open-source framework that is used to efficiently store and process large datasets
 ### Apache Flink
     Can process both unbounded (streams) and bounded (batches) data sets. 
 ### Apache MXNet

@@ -16,17 +16,25 @@ space for resources in the AWS cloud. It allows users to: Customize network
 configurations, Control traffic, Connect to other resources securely, Isolate
 resources, and Enhance security.
 ### VPCs are made up of components like:
-1. Subnets
-2. Route tables
-3. Security groups
-4. Network ACLs
-5. Internet and VPN gateways
-6. Peering connections.
+* Subnets
+* Route tables
+* Security groups
+* Network ACLs
+* Internet and VPN gateways
+* Peering connections.
 I used the vpc created by our instructors which is Lita_Project_Vpc because we have reached the number
 of vpc's to be created in AWS for free.
 ### HOW TO CREATE VPC
-1. select region
-2. 
+1. sign in to your amazon console
+2. select region
+3. search vpc
+4. click on create vpc
+5. fill in the requir informations
+
+### HOW TO CREATE A PRIVATE NACL
+* fill your name
+* select private NACL
+* fill in your inbound rules, subnet and save changes.
 
 ![AWS:detail/](/vpc.JPG)
 
@@ -41,11 +49,11 @@ particular security group. You can add rules to each security group that
 allow traffic to or from designated services including associated instances.
 
 ### HOW TO CREATE SECURITY GROUPS
-1. select your region
-2. search security group
-3. click on create security group
-4. fill in your basic details
-5. set your inbound and outbound rulesclick on create security groups
+* select your region
+* search security group
+* click on create security group
+* fill in your basic details
+* set your inbound and outbound rulesclick on create security groups
 ### SECURITY GROUPS HAS TWO ROUTE INBOUND AND OUTBOUND
 
 ![INBOUND:detail/](/Security_Group.JPG)
@@ -92,20 +100,27 @@ server in the AWS cloud.
 ## INSTALLING APACHE
 Apache is a free, open-source software technology that can be used in AWS
 for a variety of purposes, including: 
-1. Apache Web Server: A free, open-source web server that delivers web content
-   over the internet. You can install the Apache web server on an EC2 instance
-2. Apache Cassandra: An open-source, NoSQL database designed for applications
-   that require fast read and write performance. You can use Amazon Keyspaces to 
-   run Cassandra workloads. 
-3. Apache Spark: An open-source, distributed processing system used for big data
-   workloads. It supports code reuse across multiple workloads, including batch 
-   processing, interactive queries, real-time analytics, machine learning, and 
-   graph processing. 
-4. Apache Hadoop: An open-source framework that is used to efficiently store and 
-   process large datasets
-5. Apache Flink: Can process both unbounded (streams) and bounded (batches) data sets. 
-6. Apache MXNet: A machine learning inference framework.
-7. Apache Iceberg: An open table format that can scale and evolve seamlessly
+### Apache Web Server
+    A free, open-source web server that delivers web content
+    over the internet. You can install the Apache web server on an EC2 instance
+### Apache Cassandra
+    An open-source, NoSQL database designed for applications
+    that require fast read and write performance. You can use Amazon Keyspaces to 
+    run Cassandra workloads. 
+### Apache Spark
+    An open-source, distributed processing system used for big data
+    workloads. It supports code reuse across multiple workloads, including batch 
+    processing, interactive queries, real-time analytics, machine learning, and 
+    graph processing. 
+### Apache Hadoop
+    An open-source framework that is used to efficiently store and 
+    process large datasets
+### Apache Flink
+    Can process both unbounded (streams) and bounded (batches) data sets. 
+### Apache MXNet
+    A machine learning inference framework.
+### Apache Iceberg
+    An open table format that can scale and evolve seamlessly
 
 ### STEPS TO INSTALL APACHE
 1. click on your EC2 instance 

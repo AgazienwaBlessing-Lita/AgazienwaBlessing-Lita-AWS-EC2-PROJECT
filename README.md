@@ -61,6 +61,7 @@ allow traffic to or from designated services including associated instances.
 * click on create security group
 * fill in your basic details
 * set your inbound and outbound rulesclick on create security groups
+
 Outbound: traffic that is leaving the router
 Inbound: traffic that is entering the router
 

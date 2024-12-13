@@ -69,8 +69,8 @@ key and a private key. You use key pairs to:
 
 ## LAUNCHING MY INSTANCE IN AWS
 Launching an instance in AWS (Amazon Web Services) means creating a virtual
-server in the AWS cloud. To launch an instance, you can use the AWS Management 
-Console to perform the following steps:
+server in the AWS cloud. 
+### STEPS TO LAUNCH YOUR INSTANCE IN aws
 1. Log in to your AWS account
 2. Open the EC2 dashboard
 3. Click Launch Instance
@@ -80,7 +80,8 @@ Console to perform the following steps:
 7. Configure key pairs
 8. Configure network settings
 9. Configure storage
-10. Access your instance 
+10. check if everything is correct
+11. Launch your instance 
 
 ![INSTANCE:detail/](/instance.JPG)
 ![INSTANCE:detail/](/instance_1.JPG)
@@ -88,6 +89,45 @@ Console to perform the following steps:
 ![INSTANCE:detail/](/instance_3.JPG)
 ![INSTANCE:detail/](/instance_4.JPG)
 
+## INSTALLING APACHE
+Apache is a free, open-source software technology that can be used in AWS
+for a variety of purposes, including: 
+1. Apache Web Server: A free, open-source web server that delivers web content
+   over the internet. You can install the Apache web server on an EC2 instance
+2. Apache Cassandra: An open-source, NoSQL database designed for applications
+   that require fast read and write performance. You can use Amazon Keyspaces to 
+   run Cassandra workloads. 
+3. Apache Spark: An open-source, distributed processing system used for big data
+   workloads. It supports code reuse across multiple workloads, including batch 
+   processing, interactive queries, real-time analytics, machine learning, and 
+   graph processing. 
+4. Apache Hadoop: An open-source framework that is used to efficiently store and 
+   process large datasets
+5. Apache Flink: Can process both unbounded (streams) and bounded (batches) data sets. 
+6. Apache MXNet: A machine learning inference framework.
+7. Apache Iceberg: An open table format that can scale and evolve seamlessly
 
+### STEPS TO INSTALL APACHE
+1. click on your EC2 instance 
+2. click on connecting
+3. click on ssh client
+4. open your folder where keypair was downloaded
+5. right click on the empty space
+6. select show more option
+7. select get bash here(your comand window will open)
+8. copy your bash from your instance page and past
+9. A prompt will come up, you type "yes"
+10. type sudo yum update -yes ( pounch enter)
+11. type sudo yum install httpd -y ( pounch enter)
+12. copy and past your remaing code
 
+![apache installation:detail/](/kp.JPG)
+![apache installation:detail/](/apache_download.JPG)
+![apache installation:detail/](/apache_download1.JPG)
+![apache installation:detail/](/apache.JPG)
 
+## HOW TO CHECK YOUR TEST PAGE
+1. go to your EC2 instance
+2. copy your IP address and past it on your browser and refresh
+
+![test page:detail/](/apache_text_page.JPG)

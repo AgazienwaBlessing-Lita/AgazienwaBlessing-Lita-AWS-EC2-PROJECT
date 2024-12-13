@@ -25,11 +25,11 @@ resources, and Enhance security.
 I used the vpc created by our instructors which is Lita_Project_Vpc because we have reached the number
 of vpc's to be created in AWS for free.
 ### HOW TO CREATE VPC
-1. sign in to your amazon console
-2. select region
-3. search vpc
-4. click on create vpc
-5. fill in the requir informations
+* sign in to your amazon console
+* select region
+* search vpc
+* click on create vpc
+* fill in the requir informations
 
 ### HOW TO CREATE A PRIVATE NACL
 * fill your name
@@ -59,19 +59,19 @@ allow traffic to or from designated services including associated instances.
 ![INBOUND:detail/](/Security_Group.JPG)
 ![OUTBOUND:detail/](/Security_Group2.JPG)
 
-## CREATION OF KEY particular
+## CREATION OF KEY PAIR
 An AWS key pair is a set of security credentials that consists of a public
 key and a private key. You use key pairs to: 
-1. Prove your identity when connecting to an Amazon EC2 instance 
-2. Encrypt and decrypt login information 
-3. Securely access and manage EC2 instances 
+* Prove your identity when connecting to an Amazon EC2 instance 
+* Encrypt and decrypt login information 
+* Securely access and manage EC2 instances 
 ### STEPS I USED TO DOWNLOAD MY KEY PAIR
-1. Open the Amazon EC2 console 
-2. Select Key Pairs under Network & Security in the navigation pane 
-3. Choose Create Key Pair 
-4. Give your key pair a name 
-5. Choose the key pair file format (.pem)
-6. Clicking Create Key Pair 
+* Open the Amazon EC2 console 
+* Select Key Pairs under Network & Security in the navigation pane 
+* Choose Create Key Pair 
+* Give your key pair a name 
+* Choose the key pair file format (.pem)
+* Clicking Create Key Pair 
 
 ![key pair:detail/](/key_pair.JPG)
 
@@ -79,17 +79,17 @@ key and a private key. You use key pairs to:
 Launching an instance in AWS (Amazon Web Services) means creating a virtual
 server in the AWS cloud. 
 ### STEPS TO LAUNCH YOUR INSTANCE IN aws
-1. Log in to your AWS account
-2. Open the EC2 dashboard
-3. Click Launch Instance
-4. Name your instance and add tags
-5. Choose an Amazon Machine Image (AMI)
-6. Select an instance type
-7. Configure key pairs
-8. Configure network settings
-9. Configure storage
-10. check if everything is correct
-11. Launch your instance 
+* Log in to your AWS account
+* Open the EC2 dashboard
+* Click Launch Instance
+* Name your instance and add tags
+* Choose an Amazon Machine Image (AMI)
+* Select an instance type
+* Configure key pairs
+* Configure network settings
+* Configure storage
+* check if everything is correct
+* Launch your instance 
 
 ![INSTANCE:detail/](/instance.JPG)
 ![INSTANCE:detail/](/instance_1.JPG)
@@ -123,18 +123,18 @@ for a variety of purposes, including:
     An open table format that can scale and evolve seamlessly
 
 ### STEPS TO INSTALL APACHE
-1. click on your EC2 instance 
-2. click on connecting
-3. click on ssh client
-4. open your folder where keypair was downloaded
-5. right click on the empty space
-6. select show more option
-7. select get bash here(your comand window will open)
-8. copy your bash from your instance page and past
-9. A prompt will come up, you type "yes"
-10. type sudo yum update -yes ( pounch enter)
-11. type sudo yum install httpd -y ( pounch enter)
-12. copy and past your remaing code
+* click on your EC2 instance 
+* click on connecting
+* click on ssh client
+* open your folder where keypair was downloaded
+* right click on the empty space
+* select show more option
+* select get bash here(your comand window will open)
+* copy your bash from your instance page and past
+* A prompt will come up, you type "yes"
+* type sudo yum update -yes ( pounch enter)
+* type sudo yum install httpd -y ( pounch enter)
+* copy and past your remaing code
 
 ![apache installation:detail/](/kp.JPG)
 ![apache installation:detail/](/apache_download.JPG)
@@ -142,7 +142,7 @@ for a variety of purposes, including:
 ![apache installation:detail/](/apache.JPG)
 
 ## HOW TO CHECK YOUR TEST PAGE
-1. go to your EC2 instance
-2. copy your IP address and past it on your browser and refresh
+* go to your EC2 instance
+* copy your IP address and past it on your browser and refresh
 
 ![test page:detail/](/apache_text_page.JPG)
